@@ -1,0 +1,17 @@
+.Navigation {
+    float: left;
+    width: 50px;
+    border-right: 1px solid #111;
+    height: 400px;
+}
+
+.Navigation a {
+    display: block;
+    height: 50px;
+    border-bottom: 1px solid #111;
+    cursor: pointer;
+}
+
+.Navigation a svg {
+    margin-top: 10px;
+}

@@ -1,0 +1,49 @@
+.Header {
+    min-height: 50px;
+    border-bottom: 1px solid #111;
+    padding: 0 10px;
+}
+
+.Header .Title {
+    float: left;
+    display: block;
+}
+
+.Header .Title svg,
+.Header .Title label {
+    float: left;
+}
+
+.Header .Title svg {
+    margin-top: 10px;
+}
+
+.Header .Title label {
+    line-height: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.Header .Actions {
+    float: right;
+
+}
+
+.Header .Actions .Minimize,
+.Header .Actions .Close {
+    float: left;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+}
+
+.Header .Actions .Minimize {
+    height: 30px;
+    width: 15px;
+    border-bottom: 1px solid #111;
+    display: block;
+}
+
+.Header .Actions .Close svg {
+    margin-top: 10px;
+}
